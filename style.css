@@ -206,3 +206,45 @@ form .btn2{
   border: 1px solid #ccc;
   border-radius: 1px;
 }
+@media (max-width: 700px) {
+  #header{
+    background-image: url(img-01.jpeg.jpg);
+  }
+  .header-text{
+    margin-top: 35%;
+    font-size: 25px;
+
+  }
+  .header-text h1{
+    font-size: 50px;
+    margin-top: -10px;
+  }
+  .row{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+  }
+  .about-col-2{
+    margin-top: 40px;
+  }
+
+  .sub-title{
+    font-size: 45px;
+    text-align: center ;
+  }
+  .about-col-2 p{
+    margin-top: 30px;
+    font-size: 21px;
+    text-align: justify;
+  }
+  .tab-link{
+    font-size: 21px;
+  }
+  .tab-title ul li{
+    font-size: 19px;
+  }
+  .span{
+    color: black;
+    font-size: 220px;
+  }
+}
