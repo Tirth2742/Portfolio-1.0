@@ -119,6 +119,31 @@ nav ul li i:hover{
   color: red;
   font-size: 14px;
 }
+/* tech */
+.techi{
+  display: flex;
+  flex-direction: column;
+  
+  margin-bottom: 2rem;
+}
+.techtitle{
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+.techname{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.8rem;
+  
+  
+}
+.col-sm-6{
+  text-align: center;
+}
+.item img{
+  width: 2rem;
+}
 
 /* contact */
 .contact-left{
@@ -246,5 +271,9 @@ form .btn2{
   .span{
     color: black;
     font-size: 220px;
+  }
+  .techname{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
   }
 }
